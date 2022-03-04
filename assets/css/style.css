@@ -219,7 +219,7 @@ html{
     font-weight:700;
     color:#333;
     letter-spacing:-2px;
-    margin-bottom: 9.8rem;;
+    margin-bottom: 9.8rem;
 }
 
 .grid-section{
@@ -260,4 +260,39 @@ html{
 
 .app-img img{
     width:20rem;
+}
+
+/********************************/
+        /*Meals*/
+/********************************/
+
+.meals-heading{
+    font-size:1.6rem;
+    font-weight:600;
+    text-transform:uppercase;
+    text-align: center;
+    margin:16rem 0 2.4rem 0;
+    color:#CF711F;
+    letter-spacing: 1.2px;
+}
+
+.section-meals h2{
+    font-size:4.8rem;
+    font-weight:700;
+    color:#333;
+    letter-spacing:-2px;
+    margin-bottom: 9.8rem;
+    text-align: center;
+}
+
+.meals-gallery{
+    width:110rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:0 auto;
+    gap:6.8rem;
+}
+
+.meals-gallery img{
+    width:35rem;
 }
