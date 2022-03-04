@@ -35,9 +35,9 @@ html{
     justify-content: space-between;
     align-items: center;
     align-self: stretch;
-    font-size:1.6rem;
-    font-weight:600;
-    width: 68rem;
+    font-size:1.756rem;
+    font-weight:700;
+    width: 66.5rem;
 }
 
 .logo img{
@@ -54,6 +54,7 @@ html{
 /********************************/
         /*Hero Section*/
 /********************************/
+
 .section-hero{
     background-color: #fdf2e9;
     padding:9.6rem 0;
@@ -115,7 +116,7 @@ html{
 
 .hero-img{
     width:100%;
-    border-radius: 5rem;
+    border-radius: 2.4rem;
 }
 
 .margin-right-sm{
@@ -150,10 +151,113 @@ html{
     font-weight:600;
 }
 
-.delivered-number{
+.delivered-text span{
     color:#cf711f;
     font-weight:600;
 }
 
+/********************************/
+        /*Featured Box*/
+/********************************/
 
+.container{
+    max-width:115rem;
+    margin:0 auto;
+    padding:0 3.2rem;   
+    
+}
 
+.brand-featured{
+    text-align: center;
+    font-size:1.5rem;
+    text-transform:uppercase;
+    padding:2.4rem 0;
+    opacity: 50%;
+    margin-top:2.4rem;
+    
+}
+
+.brand-imgs {
+    display:flex;
+    justify-content: space-around;
+    gap:3.8rem;
+    
+}
+
+.brand-imgs img{
+    height:3.2rem;
+    margin-bottom:6.4rem;
+    opacity: 50%;
+    filter:brightness(0)
+
+}
+
+/********************************/
+        /*How section*/
+/********************************/
+
+.subheading{
+    max-width:110rem;
+    display:flex;
+    flex-direction: column;
+    margin:0 auto;
+    gap:2.4rem;
+    
+}
+
+.how-its{
+    font-size:1.6rem;
+    font-weight:600;
+    text-transform:uppercase;
+    margin-top:4.8rem;
+    color:#CF711F;
+    letter-spacing: 1.2px;
+}
+
+.subheading h1{
+    font-size:4.8rem;
+    font-weight:700;
+    color:#333;
+    letter-spacing:-2px;
+    margin-bottom: 9.8rem;;
+}
+
+.grid-section{
+    display:grid;
+    max-width:110rem;
+    margin:0 auto;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 9.5rem;
+    column-gap:6.8rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.step-number{
+    font-size:8rem;
+    font-weight:700;
+    color:#dddddd;
+    margin-bottom:2rem;
+}
+
+.step-heading1{
+    font-size:3rem;
+    font-weight:800;
+    color:#333;
+    margin-bottom:3.8rem;
+}
+
+.step-description{
+    font-size:1.8rem;
+    line-height:3.6rem;
+}
+
+.app-img{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.app-img img{
+    width:20rem;
+}
