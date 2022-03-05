@@ -240,7 +240,7 @@ html{
     margin-bottom:2rem;
 }
 
-.step-heading1{
+.step-heading1, .meals-diet h1{
     font-size:3rem;
     font-weight:800;
     color:#333;
@@ -294,5 +294,68 @@ html{
 }
 
 .meals-gallery img{
-    width:35rem;
+    width:33rem;
+    margin-bottom:2.8rem;
+    border-top-left-radius:  1rem;
+    border-top-right-radius:  1rem;
+}
+
+
+.veg{
+    color:#333333;
+    background-color:#51CF66;
+    display: inline-block;
+    padding:4px 8px;
+    border-radius: 10px;
+    font-size:1.2rem;
+    font-weight:700;
+    text-transform:uppercase;
+    margin-bottom:1.2rem;
+    margin-left: 4rem;
+}
+
+.salad-1{
+    background-color: #94D82D;
+}
+
+.salad-2{
+    background-color: #FFD43B;
+    margin-left: 3px !important;
+}
+
+.japanese, .avocado{
+    border-radius: 1rem;
+    box-shadow: 0 5px 50px 0px #dddddd;
+}
+
+.japanese:hover, .avocado:hover{
+    transition: 1s, top 1s, left 1s;
+}
+
+.japanese h1, .avocado h1{
+    font-size:2.4rem;
+    color:#333;
+    font-weight:700;
+    margin-bottom:3.8rem;
+    margin-left: 4rem;
+}
+
+.meals-number{
+    font-size:1.8rem;
+    font-weight:700;
+    color:#555555;
+}
+
+.meals-description{ 
+    font-size:1.8rem;
+    display:flex;
+    flex-direction: column;
+    gap:2.8rem;
+    margin-left: 4rem;
+    margin-bottom:3.8rem;
+
+}
+
+.meals-des-last{
+    margin: 0!important;
 }
