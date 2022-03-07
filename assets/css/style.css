@@ -290,7 +290,7 @@ html{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin:0 auto;
-    gap:6.8rem;
+    column-gap:6.8rem;
 }
 
 .meals-gallery img{
@@ -326,10 +326,11 @@ html{
 .japanese, .avocado{
     border-radius: 1rem;
     box-shadow: 0 5px 50px 0px #dddddd;
+    transition: transform .2s;
 }
 
 .japanese:hover, .avocado:hover{
-    transition: 1s, top 1s, left 1s;
+    transform: scale(0.5);
 }
 
 .japanese h1, .avocado h1{
@@ -359,3 +360,96 @@ html{
 .meals-des-last{
     margin: 0!important;
 }
+
+.meals-all-recipes{
+    font-size:1.8rem;
+    text-align:center;
+    margin:4.8rem 0 8.8rem 0;
+}
+
+.meals-all-recipes a{
+    color:#CF711F; 
+    text-underline-offset: 0.5rem; 
+    transition:all 0.3s;
+}
+
+.meals-all-recipes a:hover{
+    text-decoration: none;
+}
+
+/********************************/
+        /*TESTIMONIAL*/
+/********************************/
+
+.testimonial{
+    width:100%;  
+    background-color:#fdf2e9 ;
+    display:grid;
+    grid-template-columns: 1fr 60rem;
+    gap:10rem;
+}
+
+.testimonial-subheading{
+    max-width:120rem;
+    margin-left:10rem
+}
+
+.testimonial-subheading h2{
+    font-size:1.6rem;
+    font-weight:600;
+    text-transform:uppercase;
+    margin:8.8rem 0 2.8rem 0;
+    color:#CF711F;
+    letter-spacing: 1.2px;
+}
+
+.testimonial-subheading h1{
+    font-size:4.8rem;
+    font-weight:700;
+    color:#333;
+    letter-spacing:-2px;
+    margin-bottom: 9.8rem;
+}
+
+.testimonial-person{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap:6rem;
+}
+
+.person-image{
+    border-radius:50%;
+    width:7rem;
+    margin-bottom:1.4rem;
+}
+
+.testimonial-person p{
+    font-size:1.8rem;
+    line-height:3.6rem;
+    /* margin-bottom:0.8rem; */
+}
+
+.person-1 .name{
+    font-size:1.6rem;
+    line-height:4.6rem;
+    color:#777;
+}
+
+.gallery{
+    width:10rem;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:2rem;
+    padding:13rem 0 10rem 0;
+}
+
+.gallery img{
+    display: block;
+    width:18rem;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+  
+.gallery img:hover {
+    transform: scale(1.1);
+  }
