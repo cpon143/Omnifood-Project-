@@ -391,7 +391,7 @@ html{
 
 .testimonial-subheading{
     max-width:120rem;
-    margin-left:10rem
+    margin-left:10rem;
 }
 
 .testimonial-subheading h2{
@@ -426,7 +426,7 @@ html{
 .testimonial-person p{
     font-size:1.8rem;
     line-height:3.6rem;
-    /* margin-bottom:0.8rem; */
+
 }
 
 .person-1 .name{
@@ -452,4 +452,259 @@ html{
   
 .gallery img:hover {
     transform: scale(1.1);
-  }
+}
+
+/********************************/
+        /*PRICING*/
+/********************************/
+
+.pricing{
+    max-width: 115rem;
+    margin:0 auto;
+}
+
+.pricing-text h3{
+    font-size:1.6rem;
+    font-weight:600;
+    text-transform:uppercase;
+    margin:8.8rem 0 2.8rem 0;
+    color:#CF711F;
+    letter-spacing: 1.2px;
+}
+
+.pricing-text h1{
+    font-size:4.8rem;
+    font-weight:700;
+    color:#333;
+    letter-spacing:-2px;
+    margin-bottom: 9.8rem;
+}
+
+.pricing-table{
+    display:grid;
+    margin:0 15rem;
+    column-gap: 2rem;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.table-1 h2{
+    font-size: 1.9rem;
+    font-weight:bold;
+    color:#CF711F;
+    text-transform:uppercase;
+    margin-bottom:3.2rem;
+    text-align: center;
+
+}
+
+.table-1 h1{
+    font-size:5.2rem;
+    font-weight:800;
+    line-height:1.05;
+    color:#333;
+    letter-spacing: -0.5px;
+    margin-bottom:3.4rem;
+    text-align: center;
+}
+.table-1{
+    padding:4.4rem;
+    border:2px solid #FDF2E9;
+    border-radius: 9px;
+}
+
+.table-1 p{
+    font-size:1.7rem;
+    text-align: center;
+    margin-bottom: 3.8rem;
+}
+
+.table-1 li{
+    list-style: none;
+    font-size:1.8rem;
+    line-height:4.6rem;
+
+}
+
+.table-1 ul{
+    margin-bottom: 3.8rem;
+
+}
+
+.table-1    {
+    margin-bottom: 3.8rem;
+    text-align: center;
+}
+
+.tab-color{
+    background-color: #fdf2e9;
+}
+
+.t-content{
+    font-weight: 700;
+}
+
+.table-1 .dollor{
+    font-size: 2.8rem;
+
+}
+.table-1 ul{
+    text-align:left;
+}
+
+.pricing-tax{
+    font-size:1.6rem;
+    line-height:4.6rem;
+    text-align: center;
+    margin-bottom: 6.8rem;
+}
+
+.pricing-description{
+    display:flex;
+    gap:3rem;
+}
+
+.pricing-content h1{
+    font-size: 2.4rem;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 2.8rem;
+}
+
+.pricing-content p{
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-bottom: 10rem;
+}
+
+.get-in-touch{
+    display:grid;
+    grid-template-columns: 78rem 1fr;
+    margin-bottom: 12.8rem;
+    box-shadow: 0 30px 50px 10px #dddddd;
+    
+}
+
+.git-description{
+    background-color: #E98F3F;
+    padding:4.8rem 6.4rem 4.2rem 6.4rem;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+
+.git-description h1{
+    font-size:4.8rem;
+    font-weight:700;
+    color:#45260a;
+    letter-spacing: -0.5px;
+    margin-bottom:3.4rem;
+}
+
+.git-description .about{
+    color:#45261B;
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-bottom:3.8rem;
+}
+.eating-image{
+    width:100%;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    filter:grayscale(50%)
+}
+
+.get-in-touch-form{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.get-in-touch-form p{
+    font-size: 1.6rem;
+    color:#45261B;
+    font-weight:500;
+}
+
+.name-box{
+    font-size: 1.8rem;
+    font-weight:400;
+    background-color: #FDF2E9;
+    width:30rem;
+    padding:1.2rem;
+    border-radius: 9px;
+    border:none;
+    margin:1.2rem 0 2.8rem 0;
+    
+}
+
+.selection{
+    width:30rem;
+    font-size: 1.8rem;
+    background-color: #FDF2E9;
+    font-weight:400;
+    padding:1.2rem;
+    border-radius: 9px;
+    border:none;
+    margin:1.2rem 0;
+}
+
+.sign-up-btn{
+    font-size:2rem;
+    font-weight:700;
+    color:#FDF2E9;
+    background-color: #45260A;
+    padding:1.2rem 9.8rem;
+    border-radius: 9px;
+    border:none;
+    margin:1.2rem 0;
+    text-align: center;
+}
+
+.sign-up-btn:hover{
+    color:#555;
+    background-color: #FDF2E9;
+}
+
+/********************************/
+        /*FOOTER*/
+/********************************/
+
+.nd-logo{
+    width:16.4rem;
+}
+.icon{
+    width:2.2rem;
+}
+.footer-icon{
+    display:flex;
+    gap:2.8rem;
+    margin-top:3.8rem;
+}
+
+.foooter{
+    max-width: 115rem;
+    margin:12.2rem auto;
+    display:grid;
+    gap:3.8rem;
+    grid-template-columns: repeat(5,auto);
+}
+
+.copyright{
+    font-size:1.4rem;
+    color:#777777;
+    line-height: 2.2rem;
+    margin-top:5.8rem;
+}
+
+.foooter li{
+    list-style: none;
+}
+
+.footer-subheading{
+    font-size: 1.8rem;
+}
+
+.list-items{
+    font-size:1.7rem;
+    margin-top:3.8rem;
+    color:#777;
+    line-height:3.8rem;
+}
