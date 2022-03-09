@@ -12,6 +12,10 @@ body{
 }
 
 html{
+    /* font-size:10px; */
+
+    /* 10px / 16px = 0.625 = 62.5% */
+    /* percentage of user's browser font size setting*/
     font-size:62.5%;
 }
 
@@ -386,7 +390,7 @@ html{
     background-color:#fdf2e9 ;
     display:grid;
     grid-template-columns: 1fr 60rem;
-    gap:10rem;
+    column-gap:10rem;
 }
 
 .testimonial-subheading{
@@ -414,7 +418,7 @@ html{
 .testimonial-person{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    column-gap:6rem;
+    column-gap:1.6rem;
 }
 
 .person-image{
@@ -663,6 +667,9 @@ html{
     background-color: #FDF2E9;
 }
 
+hr{
+    max-width: 100%;
+}
 /********************************/
         /*FOOTER*/
 /********************************/

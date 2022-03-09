@@ -1,0 +1,16 @@
+/* rem and em do not depend on  font-size in medeia queries!
+Instead , 1rem = 1em = 16px*/
+/************************/
+/* BELOW  1244px (Smaller desktop */
+/************************/
+@media (max-width:25em){
+    .menu{
+        display:none;
+    }
+    .heading-primary{
+        font-size: 2.8rem;
+    }
+    .logo img{
+        margin-left:-2.2rem;
+    }
+}
