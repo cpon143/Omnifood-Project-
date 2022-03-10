@@ -304,6 +304,11 @@ html{
     border-top-right-radius:  1rem;
 }
 
+.flame{
+    stroke: #51CF66;
+    color: #222;
+    width:20px;
+}
 
 .veg{
     color:#333333;
@@ -330,11 +335,13 @@ html{
 .japanese, .avocado{
     border-radius: 1rem;
     box-shadow: 0 5px 50px 0px #dddddd;
-    transition: transform .2s;
+    transition: transform .4s;
+    overflow: hidden;
+    display:block;
 }
 
 .japanese:hover, .avocado:hover{
-    transform: scale(0.5);
+    transform: translateY(-1.2rem);
 }
 
 .japanese h1, .avocado h1{
@@ -541,6 +548,22 @@ html{
 
 .tab-color{
     background-color: #fdf2e9;
+    overflow:hidden;
+    border: none;
+    position: relative;
+}
+
+.curve{
+    font-size: 1.4rem;
+    color:#222;
+    background-color:#FFD43B;
+    padding:1rem 4.8rem;
+    font-weight:700;
+    text-transform: uppercase;
+    position: absolute;
+    transform: rotate(44deg);
+    top: 30px;
+    right: -42px;
 }
 
 .t-content{
