@@ -304,10 +304,9 @@ html{
     border-top-right-radius:  1rem;
 }
 
-.flame{
-    stroke: #51CF66;
-    color: #222;
-    width:20px;
+.flame-outline{
+    stroke: #E67E22;
+    
 }
 
 .veg{
@@ -398,6 +397,7 @@ html{
     display:grid;
     grid-template-columns: 1fr 60rem;
     column-gap:10rem;
+    align-items: center;
 }
 
 .testimonial-subheading{
@@ -447,16 +447,18 @@ html{
 }
 
 .gallery{
-    width:10rem;
+    /* width:10rem; */
     display:grid;
     grid-template-columns: repeat(3,1fr);
     gap:2rem;
     padding:13rem 0 10rem 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .gallery img{
     display: block;
-    width:18rem;
+    width:100%;
     overflow: hidden;
     transition: all 0.4s;
 }
@@ -494,7 +496,7 @@ html{
 .pricing-table{
     display:grid;
     margin:0 15rem;
-    column-gap: 2rem;
+    column-gap: 6.4rem;
     grid-template-columns: repeat(2,1fr);
 }
 
@@ -636,7 +638,7 @@ html{
     width:100%;
     border-top-right-radius: 9px;
     border-bottom-right-radius: 9px;
-    filter:grayscale(50%)
+    /* filter:grayscale(50%) */
 }
 
 .get-in-touch-form{

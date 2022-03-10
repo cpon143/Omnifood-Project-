@@ -1,33 +1,31 @@
 /* rem and em do not depend on  font-size in medeia queries!
 Instead , 1rem = 1em = 16px*/
-/************************/
-/* BELOW  1244px (Smaller desktop */
-/************************/
-@media (max-width:25em){
-    .menu{
-        display:none;
+/*****************************************/
+/*** BELOW  1244px (Smaller desktop) ***/
+/*****************************************/
+@media (max-width:84em){
+    .hero{
+        max-width:120rem;
     }
     .heading-primary{
-        font-size: 3.8rem;
-        text-align: center;
-        margin-top:-8rem;
+        font-size:4.4rem;
     }
-    .logo img{
-        margin-left:-2.2rem;
+    .gallery{
+        grid-template-columns: repeat(2,1fr);
+        
+    }   
+    .person-image{
+        margin-top:15rem;
     }
-    .hero-description{
-        text-align: center;
-    }
-    .btn{
-        display:flex;
-        flex-direction: row;
-        padding:1rem;
-    }
-    .hero{
-        display:grid;
-        grid-template-columns: 1fr;
-    }
+    
+}
 
+/*****************************************/
+/*** BELOW  1200px (Tabletor Landscape) ***/
+/*****************************************/
 
-
+@media (max-width:75em){
+    html{
+        font-size:5px;
+    }
 }
