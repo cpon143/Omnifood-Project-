@@ -26,6 +26,18 @@ Instead , 1rem = 1em = 16px*/
 
 @media (max-width:75em){
     html{
-        font-size:5px;
+        /* 9px/16em=56.25 */
+        font-size: 56%;
+    }
+    .subheading h1{
+        font-size:3.8rem;
+    }
+    .grid-section{
+        column-gap:4.8rem;
+    }
+    .meals-gallery{
+        width:105rem;
+        grid-template-columns: 33rem 33rem 33rem;
+        column-gap:3.8rem;
     }
 }
