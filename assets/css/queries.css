@@ -80,6 +80,8 @@ Instead , 1rem = 1em = 16px*/
     }
     .heading-primary{
         text-align: center;
+            font-size: 7.4rem;
+            margin: 0px 9rem
     }
     .hero-description{
         text-align: center;
@@ -174,6 +176,9 @@ Instead , 1rem = 1em = 16px*/
     }
     .foooter{
         width:102rem;
+    }
+    .section-meals h2{
+        font-size:3.4rem;
     }
 }
     
