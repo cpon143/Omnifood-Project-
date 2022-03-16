@@ -155,5 +155,25 @@ Instead , 1rem = 1em = 16px*/
     .sign-up-btn{
         width:100%;
     }
+    .pricing-table{
+        width:80rem;
+        margin: 0 12rem;
+        column-gap: 3.4rem;
+    }
+    .pricing-text{
+        width:87rem;
+    }
+    .pricing-tax-plan{
+        width:102rem;
+    }
+    .pricing-description{
+        width:102rem;
+    }
+    .get-in-touch{
+        width:102rem;
+    }
+    .foooter{
+        width:102rem;
+    }
 }
     
