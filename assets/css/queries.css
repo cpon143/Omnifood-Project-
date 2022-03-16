@@ -40,4 +40,120 @@ Instead , 1rem = 1em = 16px*/
         grid-template-columns: 33rem 33rem 33rem;
         column-gap:3.8rem;
     }
+    .hero{
+        max-width: 105rem;
+        gap:7.6rem;
+    }
+    p.how-its, .step-heading, p.step-number, p.step-heading1, p.step-description{
+        margin-left:1rem;
+    }
+    .pricing-text, .pricing-description, .foooter{
+        margin-left:1rem;
+    }
+    .testimonial{
+        grid-template-columns: 1fr 47rem;
+        column-gap: 4rem;
+    }
+    .gallery{
+         padding:1rem 0;
+    }
+    .person-1{
+        margin-top:-5rem;
+    }
 }
+
+/*****************************************/
+/*** BELOW  946px (Tabletor Landscape) ***/
+/*****************************************/
+
+@media(max-width:60em){
+    .hero{
+        grid-template-columns: 1fr;
+
+    }
+    .section-hero{
+        width:107rem;
+    }
+    .nevigation{
+        width:107rem;
+        margin:0 auto;
+    }
+    .heading-primary{
+        text-align: center;
+    }
+    .hero-description{
+        text-align: center;
+    }
+    .hero-btn{
+        display:flex;
+        justify-content: center;
+    }
+    .delivered-meals{
+        justify-content: center;
+    }
+    .hero-img{
+        width:55%;
+        margin-left:22rem;
+    }
+    .container{
+        width:95rem;
+        margin:0 auto;
+    }
+    .brand-imgs{
+        width:98rem;
+        margin: 0 auto;
+        gap:2.2rem;
+    }
+    .subheading{
+        width:100rem;
+        margin:0 auto;
+        gap:2.4rem;
+    }
+    .grid-section{
+        width: 100rem;
+        margin: 0 auto;
+    }
+    .meals-gallery {
+        width: 100rem;
+        grid-template-columns: 33rem 33rem 28rem;
+    }
+    .testimonial{
+        width:107rem;
+    }
+    .pricing-text, .pricing-description, .foooter{
+        margin-left:3rem;
+    
+    }
+    .testimonial{
+        grid-template-columns: 1fr;
+    }
+    .gallery{
+        grid-template-columns: repeat(6,1fr);
+        margin:1rem;
+    }
+    .get-in-touch{
+        grid-template-columns: 60rem 1fr;
+        margin:1rem;
+    }
+    .git-description h1 {
+        font-size: 3.6rem;
+
+    }
+    .get-in-touch-form{
+        grid-template-columns: 1fr;
+    }
+    .eating-image{
+        width:100%;
+        height:100%;
+    }
+    .name-box{
+        width:50rem;
+    }
+    .selection{
+        width:50rem;
+    }
+    .sign-up-btn{
+        width:100%;
+    }
+}
+    

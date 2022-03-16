@@ -638,6 +638,7 @@ html{
     width:100%;
     border-top-right-radius: 9px;
     border-bottom-right-radius: 9px;
+    opacity: 60%;
     /* filter:grayscale(50%) */
 }
 
