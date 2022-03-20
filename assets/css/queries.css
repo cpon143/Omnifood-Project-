@@ -80,8 +80,8 @@ Instead , 1rem = 1em = 16px*/
     }
     .heading-primary{
         text-align: center;
-            font-size: 7.4rem;
-            margin: 0px 9rem
+            /* font-size: 7.4rem; */
+            /* margin: 0px 9rem */
     }
     .hero-description{
         text-align: center;
@@ -182,3 +182,62 @@ Instead , 1rem = 1em = 16px*/
     }
 }
     
+/*****************************************/
+/*** BELOW  544px (approx smart phone) ***/
+/*****************************************/
+
+@media(max-width:34em){
+    
+    .grid-section{
+        grid-template-columns: 1fr;
+    }
+    .meals-gallery{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        gap: 3.8rem;
+    }
+    .testimonial-person{
+        grid-template-columns: 1fr;
+    }
+    .gallery{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .pricing-table{
+        grid-template-columns: 1fr;
+    }
+    .pricing-description{
+        flex-direction: column;
+    }
+    .foooter{
+        grid-template-columns: 1fr;
+    }
+    .get-in-touch{
+        grid-template-columns: 1fr;
+    }
+     .heading-primary{
+        font-size: 8.3rem;
+    }
+    .hero-description p{
+        font-size: 3.3rem;
+    }
+    .meals-heading, .section-meals h2{
+        text-align: center;
+        width:105rem;
+    }
+    .japanese, .avocado{
+        width: 77rem;
+    }
+    .veg{
+        display:inline-block;
+        margin-bottom: 3.8rem;
+    }
+    .meals-gallery img{
+        width: 100%;
+        margin-bottom: 6.8rem;
+        
+    }
+    .meals-description {
+        font-size: 3.8rem;
+    }
+}
