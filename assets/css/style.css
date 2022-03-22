@@ -128,7 +128,7 @@ html{
 }
 
 .delivered-meals{
-    display:flex;
+    display:grid;
     gap:1.6rem;
     align-items: center;
     margin-top:8rem;

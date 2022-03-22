@@ -210,7 +210,7 @@ Instead , 1rem = 1em = 16px*/
         flex-direction: column;
     }
     .foooter{
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2,1fr);
     }
     .get-in-touch{
         grid-template-columns: 1fr;
@@ -218,8 +218,8 @@ Instead , 1rem = 1em = 16px*/
      .heading-primary{
         font-size: 8.3rem;
     }
-    .hero-description p{
-        font-size: 3.3rem;
+    .hero-description {
+        font-size: 4.3rem;
     }
     .meals-heading, .section-meals h2{
         text-align: center;
@@ -227,6 +227,7 @@ Instead , 1rem = 1em = 16px*/
     }
     .japanese, .avocado{
         width: 77rem;
+        margin-bottom:3.8rem;
     }
     .veg{
         display:inline-block;
@@ -240,4 +241,99 @@ Instead , 1rem = 1em = 16px*/
     .meals-description {
         font-size: 3.8rem;
     }
+    .btn:link, .btn:visited{
+        font-size:4.3rem;
+    }
+    .brand-featured{
+        font-size: 2.5rem;
+    }
+    .testimonial-subheading{
+        text-align: center;
+    }
+    .meals-all-recipes{
+        text-align: center;
+    }
+    .testimonial-person p {
+        font-size: 3.8rem;
+        line-height: 5.6rem;
+    }
+    .person-image {
+        width: 16rem;
+        margin-bottom: 3.4rem;
+    }
+    .person-1 .name {
+        font-size: 3.6rem;
+        line-height: 8.6rem;
+    }
+    .testimonial-subheading h2 {
+        font-size: 3.7rem;
+    }
+    .pricing-text h3 {
+        font-size: 3.7rem;
+        text-align: center;
+    }
+    .pricing-text {
+        width: 100rem;
+    }
+    .pricing-text h1{
+        width: 100rem;
+        margin-left: 10rem;
+    }
+    .table-1 h2 {
+        font-size: 3.7rem;
+    }
+    .table-1 p {
+        font-size: 4.2rem;
+    }
+    .table-1 li {
+        list-style: none;
+        font-size: 4.8rem;
+        line-height: 12.6rem;
+    }
+    .curve {
+        font-size: 3rem;
+        transform: rotate(40deg);
+        top: 39px;
+        right: -50px;
+    }
+    .pricing-tax {
+        font-size: 3.6rem;
+        line-height: 5.6rem;
+        margin: 6.8rem;
+    }
+    .pricing-content h1 {
+        font-size: 4.8rem;
+    }
+    .pricing-content p {
+        font-size: 4.7rem;
+        line-height: 1.7;
+    }
+    .git-description h1 {
+        font-size: 5.8rem;
+    }
+    .git-description .about {
+        font-size: 4.8rem;
+        line-height: 1.4;
+    }
+    .get-in-touch-form p {
+        font-size: 4.9rem;
+    }
+    .name-box {
+        width: 89.3rem;
+    }
+    .name-box {
+        font-size: 4.4rem;
+    }
+    .selection {
+        width: 89rem; 
+    }
+    .selection {
+        width: 80rem;
+        font-size: 4.4rem;
+    }
+    .sign-up-btn {
+        font-size: 4rem;
+        padding: 3.2rem 9.8rem;
+    }
+
 }
