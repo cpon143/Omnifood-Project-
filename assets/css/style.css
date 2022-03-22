@@ -165,7 +165,7 @@ html{
 /********************************/
 
 .container{
-    max-width:115rem;
+    /* max-width:130rem; */
     margin:0 auto;
     padding:0 3.2rem;   
     
@@ -275,9 +275,15 @@ html{
     font-weight:600;
     text-transform:uppercase;
     text-align: center;
-    margin:16rem 0 2.4rem 0;
     color:#CF711F;
     letter-spacing: 1.2px;
+}
+
+.meals-flex{
+    display:grid;
+    grid-template-rows: 2rem 15rem;
+    gap:3rem;
+    margin:16rem 0 2.4rem 6rem;
 }
 
 .section-meals h2{

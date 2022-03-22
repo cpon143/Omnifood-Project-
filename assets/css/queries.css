@@ -181,13 +181,128 @@ Instead , 1rem = 1em = 16px*/
         font-size:3.4rem;
     }
 }
+
+/*****************************************/
+/*** BELOW  768px (approx tablet) ***/
+/*****************************************/
+
+@media (max-width: 48em){
+    .heading-primary{
+        font-size:8.2rem;
+    }
+    .hero-description{
+        font-size:2.4rem;
+    }
+    
+    .btn:link, .btn:visited {
+    font-size:2.4rem;
+    }
+    .delivered-meals{
+        display:flex;
+        gap:2rem;
+    }
+    .hero-img{
+        width:80%;
+    }
+    .delivered-text {
+        font-size: 2.2rem;
+    }
+    .brand-featured {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+    .brand-featured{
+        width: 100rem;
+    }
+    .how-its{
+        font-size:2rem;
+    }
+    .subheading h1{
+        font-size:6.2rem;
+    }
+    .step-heading1, .meals-diet h1{
+        font-size:4.2rem;
+    }
+    .step-description{
+        font-size:2.2rem;
+    }
+    .meals-heading{
+        font-size:2rem;
+    }
+    .section-meals h2{
+        font-size:3.8rem;
+    }
+    .veg{
+        font-size:1.6rem;
+    }
+    .japanese h1, .avocado h1{
+        font-size:3rem;
+    }
+    .meals-description{
+        font-size:2.2rem;
+    }
+    .grid-section, .subheading, .meals-gallery{
+        margin-left:5rem;
+    }
+    .meals-flex{
+        margin-left: 25rem;
+    }
+    .meals-all-recipes{
+        font-size: 2.2rem;
+        margin-left:30rem;
+    }
+    .testimonial-subheading h2{
+        font-size:2rem;
+        margin: 8rem 0 6rem 0;
+    }
+    .testimonial-person p{
+        font-size:2.2rem;
+    }
+    .testimonial-subheading h1{
+        margin-bottom: 5.2rem;;
+    }
+    .testimonial-subheading{
+        margin-left:5rem;
+    }
+    .pricing-text h3{
+        font-size: 2rem;
+    }
+    .table-1 p{
+        font-size: 2.2rem;
+    }
+    .pricing-table{
+        grid-template-columns:repeat(2,47rem)
+    }
+    .pricing-table {
+        width: 80rem;
+        margin: 0 6rem;
+    }
+    .table-1 li{
+        font-size: 2.1rem;
+    }
+    .pricing-tax{
+        font-size:2.1rem;
+    }
+    .pricing-content p{
+        font-size: 1.8rem;
+    }
+}
+
+
+
+
+
+
+
+
+
     
 /*****************************************/
 /*** BELOW  544px (approx smart phone) ***/
 /*****************************************/
 
-@media(max-width:34em){
-    
+/*@media(max-width:34em){
+     
     .grid-section{
         grid-template-columns: 1fr;
     }
@@ -272,7 +387,7 @@ Instead , 1rem = 1em = 16px*/
         font-size: 3.7rem;
         text-align: center;
     }
-    .pricing-text {
+     .pricing-text {
         width: 100rem;
     }
     .pricing-text h1{
@@ -335,5 +450,8 @@ Instead , 1rem = 1em = 16px*/
         font-size: 4rem;
         padding: 3.2rem 9.8rem;
     }
+    .brand-featured{
+        width:121%;
+    }
 
-}
+}  */
