@@ -455,3 +455,53 @@ Instead , 1rem = 1em = 16px*/
     }
 
 }  */
+
+
+/*****************************************/
+/*** BELOW  375px (approx smart phone) ***/
+/*****************************************/
+
+@media (max-width: 23em){
+    .menu-list {
+        display: none;
+    }
+    .heading-primary{
+        font-size:8.6rem;
+        margin-bottom:10rem;
+    }
+    .hero-description{
+        font-size:5.4rem;
+        margin-bottom:8rem;
+    }
+    .hero-btn{
+        flex-direction:column;
+        gap:6rem;
+        margin-bottom:8rem;
+    }
+    .btn:link, .btn:visited{
+        font-size:5.4rem;
+         
+    }
+    .hero-btn{
+        justify-content: center;
+        align-items: center;
+    }
+    .delivered-meals{
+        flex-direction: column;
+        gap:4rem;
+    }
+    .delivered-imgs img{
+        height: 15.8rem;
+        width: 15.8rem;
+    }
+    .delivered-text{
+        font-size:4.8rem;
+    }
+    .hero-img{
+        width: 100%;
+        margin:0;
+    }
+    .brand-featured{
+        font-size:3.2rem;
+    }
+}
