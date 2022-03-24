@@ -479,7 +479,7 @@ Instead , 1rem = 1em = 16px*/
         margin-bottom:8rem;
     }
     .btn:link, .btn:visited{
-        font-size:5.4rem;
+        font-size:4.8rem;
          
     }
     .hero-btn{
@@ -488,23 +488,187 @@ Instead , 1rem = 1em = 16px*/
     }
     .delivered-meals{
         flex-direction: column;
-        gap:4rem;
+        gap:2rem;
     }
     .delivered-imgs img{
-        height: 15.8rem;
-        width: 15.8rem;
+        height: 12.8rem;
+        width: 12.8rem;
     }
     .delivered-text{
-        font-size:4.8rem;
+        font-size:4.2rem;
     }
     .hero-img{
         width: 100%;
         margin:0;
     }
     .brand-featured{
-        font-size:3.2rem;
+        font-size:2.8rem;
     }
     .brand-imgs img {
         height: 3.2rem;
+    }
+    .how-its{
+        font-size:2.8rem ;
+    }
+    /* p.how-its, .step-heading, p.step-number, p.step-heading1, p.step-description{
+        margin: 0;
+    } */
+    .subheading h1{
+        font-size: 5.8rem
+    }
+    .step-heading1, .meals-diet h1 {
+        font-size: 5.4rem;
+    }
+    .step-description {
+        font-size: 4.2rem;
+        line-height: 1.2;
+        margin-top:3rem;
+
+    }
+    .grid-section{
+        grid-template-columns: 1fr;;
+    }
+    .meals-flex {
+        max-width:110rem;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .meals-heading{
+        font-size:2.8rem
+    }
+    .section-meals{
+        width:88rem;
+    }
+    .section-meals h2{
+        font-size:5.8rem;
+    }
+    .meals-gallery{
+        grid-template-columns: 1fr;
+        gap:5.2rem;
+
+    }
+    .meals-gallery img{
+        width:100%;
+    }
+    .veg{
+        font-size: 2.8rem;
+
+    }
+    .japanese h1, .avocado h1{
+        font-size:4.2rem;
+    }
+    .meals-description{
+        font-size:4rem;
+    }
+    .meals-number{
+        font-size: 3.2rem;
+    }
+    .japanese, .avocado{
+        margin: 0 12rem;
+    }
+    .meals-diet{
+        margin: 0 auto;
+    }
+    .meals-all-recipes a{
+        font-size: 4.2rem;
+    }
+    .testimonial-subheading h2{
+        font-size: 2.8rem;
+    }
+    .testimonial-subheading h1{
+        font-size: 5.8rem;
+    }
+    .testimonial-person{
+        grid-template-columns: 1fr;;
+    }
+    .person-image{
+        width:18rem;
+    }
+    .testimonial-person p{
+        font-size: 4.8rem;
+        line-height:1.6;
+    }
+    .person-1 .name{
+        font-size:3.8rem;
+    }
+    .gallery{
+        grid-template-columns: 1fr 1fr 1fr;
+        margin:8rem 0;
+    }
+    .pricing-text h3{
+        font-size:2.8rem;
+    }
+    .pricing-text h1{
+        font-size:5rem;
+    }
+    .pricing-table{
+        grid-template-columns: 1fr;
+    }
+    .table-1 h2{
+        font-size:2.8rem;
+    }
+    .table-1 h1{
+        font-size: 10em;
+    }
+    .table-1 .dollor{
+        font-size:5.2rem;
+    }
+    .table-1 p{
+        font-size: 4.2rem;
+        font-weight: 500;
+    }
+    .table-1{
+        margin-bottom:5.8rem;
+    }
+    .table-1 li{
+        font-size:4.2rem;
+        line-height:2.8;
+    }
+    .curve{
+        font-size:3.8rem;
+        top: 58px;
+        right: -64px;
+    }
+    .pricing-tax{
+        font-size:4.2rem;
+        line-height:1.2;
+    }
+    .pricing-description{
+        flex-direction: column;
+    }
+    .pricing-content h1{
+        font-size:5.8rem;
+    }
+    .pricing-content p{
+        font-size:4.8rem;
+        margin:6rem 0;
+    }
+    .get-in-touch{
+        grid-template-columns: 1fr;;
+    }
+    .git-description h1{
+        font-size:5.2rem;
+    }
+    .get-in-touch-form p {
+        font-size:4.8rem;
+    }
+    .git-description .about{
+        font-size:3.8rem;
+    }
+    .name-box{
+        font-size:3.2rem;
+    }
+    .selection{
+        font-size:3.2rem
+    }
+    .sign-up-btn{
+        font-size:4rem;
+    }
+    .name-box, .selection{
+        width:88rem;
+    }
+    .foooter{
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
