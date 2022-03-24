@@ -461,7 +461,7 @@ Instead , 1rem = 1em = 16px*/
 /*** BELOW  375px (approx smart phone) ***/
 /*****************************************/
 
-@media (max-width: 24em){
+@media (max-width: 26em){
     .menu-list {
         display: none;
     }
