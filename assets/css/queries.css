@@ -556,7 +556,7 @@ Instead , 1rem = 1em = 16px*/
 
     }
     .japanese h1, .avocado h1{
-        font-size:4.2rem;
+        font-size:5.2rem;
     }
     .meals-description{
         font-size:4rem;
@@ -671,11 +671,37 @@ Instead , 1rem = 1em = 16px*/
     .foooter{
         grid-template-columns: 1fr 1fr 1fr;
     }
-    .get-items:nth-child(2) {
+    /* .get-in-touch:nth-child(2) {
+        grid-row: 1;
+
+    } */
+    .app-img:nth-child(2){
+        grid-row: 1;
+    }
+    .app-img:nth-child(6){
+        grid-row: 5;
+    }
+    
+    .app-img img {
+        width: 45rem;
+    }
+    .meals-gallery img {
+        margin-bottom: 8.8rem;
+    }
+    .veg{
+        font-size: 3.2rem;
+        margin-bottom: 5.8rem;
+        margin-left: 4rem
+    }
+    .get-in-touch:nth-child(6) {
+        grid-row: 5;
+    }
+    .foooter:nth-child(3) {
         grid-column-start: 1;
         grid-column-end: 2;
-        grid-row-start:1;
-        grid-row-end:2;
-
+        /* grid-row-start: 1;
+        grid-row-end: 2; */
+        grid-row: 1;
+    
     }
 }
