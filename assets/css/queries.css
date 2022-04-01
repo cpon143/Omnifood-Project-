@@ -734,4 +734,7 @@ Instead , 1rem = 1em = 16px*/
     .foooter{
         grid-template-columns: 1fr;
     }
+    .nevigation{
+        height: 13.6rem;
+    }
 }
