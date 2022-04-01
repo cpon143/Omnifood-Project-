@@ -7,6 +7,9 @@ Instead , 1rem = 1em = 16px*/
     .hero{
         max-width:120rem;
     }
+    .menu-bar{
+        display: none;
+    }
     .heading-primary{
         font-size:4.4rem;
     }
@@ -28,6 +31,9 @@ Instead , 1rem = 1em = 16px*/
     html{
         /* 9px/16em=56.25 */
         font-size: 56%;
+    }
+    .menu-bar{
+        display: none;
     }
     .subheading h1{
         font-size:3.8rem;
@@ -70,6 +76,9 @@ Instead , 1rem = 1em = 16px*/
     .hero{
         grid-template-columns: 1fr;
 
+    }
+    .menu-bar{
+        display: none;
     }
     .section-hero{
         width:107rem;
@@ -189,6 +198,9 @@ Instead , 1rem = 1em = 16px*/
 @media (max-width: 48em){
     .heading-primary{
         font-size:8.2rem;
+    }
+    .menu-bar{
+        display: none;
     }
     .hero-description{
         font-size:2.4rem;
@@ -465,6 +477,9 @@ Instead , 1rem = 1em = 16px*/
     .menu-list {
         display: none;
     }
+    .menu-bar{
+        display:block;
+    }
     .heading-primary{
         font-size:8.6rem;
         margin-bottom:10rem;
@@ -712,6 +727,7 @@ Instead , 1rem = 1em = 16px*/
     }
     .list-items {
         font-size: 4.8rem;
+        margin-bottom: 3rem;
         line-height: 6.9rem;
     }
 

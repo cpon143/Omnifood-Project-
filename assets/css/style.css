@@ -9,6 +9,7 @@ body{
     line-height:1;
     font-weight:400;
     color:#555;
+    position: relative;
 }
 
 html{
@@ -31,6 +32,11 @@ html{
     background-color:#fdf2e9;
     height: 9.6rem;
     padding:0 4.8rem;
+    position: fixed;
+}
+
+.menu-bar:active, :hover{
+    cursor: pointer;
 }
 
 .menu-list{
@@ -61,7 +67,7 @@ html{
 
 .section-hero{
     background-color: #fdf2e9;
-    padding:9.6rem 0;
+    padding:14.2rem 0;
 }
 
 .hero{
