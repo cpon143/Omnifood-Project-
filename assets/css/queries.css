@@ -668,9 +668,6 @@ Instead , 1rem = 1em = 16px*/
     .name-box, .selection{
         width:88rem;
     }
-    .foooter{
-        grid-template-columns: 1fr 1fr 1fr;
-    }
     /* .get-in-touch:nth-child(2) {
         grid-row: 1;
 
@@ -696,8 +693,29 @@ Instead , 1rem = 1em = 16px*/
     .get-in-touch:nth-child(2) {
         grid-column: 1;
     }
-   
-    .foooter {
-        grid-row: 1;
+    .logo img, .nd-logo{
+        width:42.2rem;
+    }
+    
+    .icon{
+        width:6.8rem;
+    }
+    .facebook-icon{
+        width:6.8rem;
+    }
+    .copyright {
+        font-size: 4.4rem;
+        line-height: 5.5rem;
+    }
+    .footer-subheading {
+        font-size: 5.2rem;
+    }
+    .list-items {
+        font-size: 4.8rem;
+        line-height: 6.9rem;
+    }
+
+    .foooter{
+        grid-template-columns: 1fr;
     }
 }
