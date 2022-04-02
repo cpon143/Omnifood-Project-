@@ -747,7 +747,7 @@ Instead , 1rem = 1em = 16px*/
         height: 100%;
         width: 100%;
     
-        background: #000;
+        background: rgb(56, 52, 52);
         clip-path: circle(25px at calc(100% - 45px) 45px);
         transition: all 0.3s ease-in-out;
     }
@@ -873,11 +873,11 @@ Instead , 1rem = 1em = 16px*/
         }
     }
 
-    .menu-btn1, .wrapper{
+    .wrapper,  .fas, .fa-bars{
         display: block;
     }
     
     #active{
-        display: block;
+        /* display: block; */
     }
 }
