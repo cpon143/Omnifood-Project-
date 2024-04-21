@@ -56,6 +56,11 @@ html {
     width: 66.5rem;
 }
 
+.menu-list li{
+    test-decoration:none;
+    color:#333333;
+}
+
 .logo img {
     width: 16.4rem;
 }
