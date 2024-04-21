@@ -56,7 +56,7 @@ html {
     width: 66.5rem;
 }
 
-.menu-list li{
+.menu-list li a{
     test-decoration:none;
     color:#333333;
 }
